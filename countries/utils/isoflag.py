@@ -16,9 +16,9 @@ def iso_flag(iso, flag_path=u''):
     """
     if not settings.MEDIA_URL:
         return u''
-    deafult = u'-'
+    default = u'-'
     if not iso:
-        iso = deafult
+        iso = default
     else:
         iso = iso.lower().strip()
     try:
