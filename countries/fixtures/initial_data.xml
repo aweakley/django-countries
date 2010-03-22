@@ -1098,6 +1098,12 @@
         <field type="CharField" name="iso3">RWA</field>
         <field type="PositiveSmallIntegerField" name="numcode">646</field>
     </object>
+    <object pk="BL" model="countries.country">
+        <field type="CharField" name="name">SAINT BARTHELEMY</field>
+        <field type="CharField" name="printable_name">Saint-Barthélemy</field>
+        <field type="CharField" name="iso3">BLM</field>
+        <field type="PositiveSmallIntegerField" name="numcode">652</field>
+    </object>
     <object pk="SH" model="countries.country">
         <field type="CharField" name="name">SAINT HELENA</field>
         <field type="CharField" name="printable_name">Saint Helena</field>
@@ -1115,6 +1121,12 @@
         <field type="CharField" name="printable_name">Saint Lucia</field>
         <field type="CharField" name="iso3">LCA</field>
         <field type="PositiveSmallIntegerField" name="numcode">662</field>
+    </object>
+    <object pk="MF" model="countries.country">
+        <field type="CharField" name="name">SAINT MARTIN</field>
+        <field type="CharField" name="printable_name">Saint Martin</field>
+        <field type="CharField" name="iso3">MAF</field>
+        <field type="PositiveSmallIntegerField" name="numcode">663</field>
     </object>
     <object pk="PM" model="countries.country">
         <field type="CharField" name="name">SAINT PIERRE AND MIQUELON</field>
