@@ -27,13 +27,3 @@ class Country(models.Model):
     def __unicode__(self):
         return self.printable_name
 
-class CountryField(CharField):
-
-    description = _("Country (ISO alpha-2 country code)")
-
-    def __init__(self, *args, **kwargs):
-        kwargs['choices'] = tuple([(c.iso, c.printable_name) for c in \
-                Country.objects.all().order_by('printable_name')])
-        kwargs['max_length'] = 2
-        super(CountryField, self).__init__(*args, **kwargs)
-
