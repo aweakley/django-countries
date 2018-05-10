@@ -27,3 +27,5 @@ class Country(models.Model):
     def __unicode__(self):
         return self.printable_name
 
+    def __str__(self):
+        return self.printable_name
