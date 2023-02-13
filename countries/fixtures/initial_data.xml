@@ -1476,4 +1476,11 @@
         <field type="CharField" name="iso3">ZWE</field>
         <field type="PositiveSmallIntegerField" name="numcode">716</field>
     </object>
+
+    <object pk="ZW" model="countries.country">
+        <field type="CharField" name="name">KOSOVO</field>
+        <field type="CharField" name="printable_name">Kosovo</field>
+        <field type="CharField" name="iso3">XK</field>
+        <field type="PositiveSmallIntegerField" name="numcode">221</field>
+    </object>
 </django-objects>
