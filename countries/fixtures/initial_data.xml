@@ -702,6 +702,12 @@
         <field type="CharField" name="iso3">KOR</field>
         <field type="PositiveSmallIntegerField" name="numcode">410</field>
     </object>
+    <object pk="XK" model="countries.country">
+        <field type="CharField" name="name">KOSOVO</field>
+        <field type="CharField" name="printable_name">Kosovo</field>
+        <field type="CharField" name="iso3">XXK</field>
+        <field type="PositiveSmallIntegerField" name="numcode">221</field>
+    </object>
     <object pk="KW" model="countries.country">
         <field type="CharField" name="name">KUWAIT</field>
         <field type="CharField" name="printable_name">Kuwait</field>
@@ -1475,12 +1481,5 @@
         <field type="CharField" name="printable_name">Zimbabwe</field>
         <field type="CharField" name="iso3">ZWE</field>
         <field type="PositiveSmallIntegerField" name="numcode">716</field>
-    </object>
-
-    <object pk="XK" model="countries.country">
-        <field type="CharField" name="name">KOSOVO</field>
-        <field type="CharField" name="printable_name">Kosovo</field>
-        <field type="CharField" name="iso3">KOS</field>
-        <field type="PositiveSmallIntegerField" name="numcode">221</field>
     </object>
 </django-objects>
