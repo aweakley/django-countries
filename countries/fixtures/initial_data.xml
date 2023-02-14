@@ -706,7 +706,7 @@
         <field type="CharField" name="name">KOSOVO</field>
         <field type="CharField" name="printable_name">Kosovo</field>
         <field type="CharField" name="iso3">XXK</field>
-        <field type="PositiveSmallIntegerField" name="numcode">221</field>
+        <field type="PositiveSmallIntegerField" name="numcode">926</field>
     </object>
     <object pk="KW" model="countries.country">
         <field type="CharField" name="name">KUWAIT</field>
