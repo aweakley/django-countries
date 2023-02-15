@@ -1392,12 +1392,12 @@
         <field type="CharField" name="iso3">ARE</field>
         <field type="PositiveSmallIntegerField" name="numcode">784</field>
     </object>
-    <!-- <object pk="GB" model="countries.country">
+    <object pk="GB" model="countries.country">
         <field type="CharField" name="name">UNITED KINGDOM</field>
         <field type="CharField" name="printable_name">United Kingdom of Great Britain and Northern Ireland</field>
         <field type="CharField" name="iso3">GBR</field>
         <field type="PositiveSmallIntegerField" name="numcode">826</field>
-    </object> -->
+    </object>
     <object pk="US" model="countries.country">
         <field type="CharField" name="name">UNITED STATES</field>
         <field type="CharField" name="printable_name">United States of America</field>
